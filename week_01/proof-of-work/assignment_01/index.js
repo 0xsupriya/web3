@@ -10,7 +10,7 @@ function findHashWithPrefix(prefix){
         if(hash.startsWith(prefix)){
             return {input: inputStr, hash: hash}
         }
-        input++
+        input++;
     }
 }
 
